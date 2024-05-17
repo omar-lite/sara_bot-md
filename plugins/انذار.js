@@ -33,7 +33,7 @@ let handler = async (m, { conn, text, args, groupMetadata, usedPrefix, command }
 
 handler.help = ['warn @user']
 handler.tags = ['group']
-handler.command = ['warn','انذار'] 
+handler.command = ['انذار'] 
 handler.group = true
 handler.admin = true
 handler.botAdmin = true
