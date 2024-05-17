@@ -12,7 +12,7 @@ let handler = async (m, { conn, args, groupMetadata }) => {
    
    handler.help = ['warns']
    handler.tags = ['group']
-   handler.command = ['warns','الانذارات'] 
+   handler.command = ['الانذارات'] 
    handler.group = true
 
    export default handler
