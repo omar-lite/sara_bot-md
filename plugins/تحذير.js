@@ -49,7 +49,7 @@ const handler = async (m, { conn, text, command, usedPrefix }) => {
     await new Promise(resolve => setTimeout(resolve, 2000));
 
     try {
-      await conn.groupParticipantsUpdate(m.chat, [who], 'kick');
+      await conn.groupParticipantsUpdate(m.chat, [who], 'remove');
     } catch (e) {
       m.reply(`فشل في طرد المستخدم @${who.split`@`[0]}. تأكد من أن البوت لديه صلاحيات كافية.`, null, { mentions: [who] });
     }
