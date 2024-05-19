@@ -162,7 +162,7 @@ let str = `「WELCOME TO BOT-YORHA💙🗝️」
 🎧 ناعم
 🎧 سنجاب
 ⎔ ⋅ ───━ •﹝🪭﹞• ━─── ⋅ ⎔
-𝑺𝐴𝑅𝐴-𝐵𝛩𝑇🪭
+ 「〢𝒀𝑶𝑹𝑯𝑨-𝑩𝑶𝑻💙🗝️〢」
 ⎔ ⋅ ───━ •﹝🪭﹞• ━─── ⋅ ⎔
 
 `.trim()
@@ -179,7 +179,7 @@ let str = `「WELCOME TO BOT-YORHA💙🗝️」
         }
 
         function _0x42ca() {
-            const _0xe1e20e = ['2409147cMTtvV', '70SxKSwY', 'trim', '2708027tOnEUS', '831853GQAjyu', '6ZrUjVF', '⁨𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩👑', '406070MLYaeB', 'https://www.atom.bio/harley_light', '4YbGMkZ', '840496IPJeXP', '322835aPaRGc', 'VIDEO', '3639410cLSfPv', 'sender', '9LtUyCF'];
+            const _0xe1e20e = ['2409147cMTtvV', '70SxKSwY', 'trim', '2708027tOnEUS', '831853GQAjyu', '6ZrUjVF', '⁨𝐘𝐨𝐫𝐮𝐢𝐜𝐡𝐢-𝐙𝐞𝐧𝐢𝐧, '406070MLYaeB', 'https://linktr.ee/Reven__zenin', '4YbGMkZ', '840496IPJeXP', '322835aPaRGc', 'VIDEO', '3639410cLSfPv', 'sender', '9LtUyCF'];
             _0x42ca = function () {
                 return _0xe1e20e;
             };
