@@ -7,21 +7,21 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = "*「YUMEKO」*"
+global.botnumber = "*「YORHA」*"
 global.confirmCode = ""
 
-global.owner = [['212705117543', '~𝐌𝐑┊𝐆𝐎𝐉𝐎⁩', true],
+global.owner = [['212705117543', '~𝐘𝐨𝐫𝐮𝐢𝐜𝐡𝐢┊𝐙𝐞𝐧𝐢𝐧⁩', true],
 ];
 
 global.suittag = ['212705117543'];
 global.prems = ['212705117543'];
 
-global.packname = 'YUMEKO';
-global.author = 'YUMEKO';
-global.wm = 'YUMEKO';
-global.titulowm = '☾︎ YUMEKO ☽︎';
-global.titulowm2 = `☾︎ YUMEKO ☽︎`
-global.igfg = '☾︎ YUMEKO-BOT ☽︎';
+global.packname = 'YORHA';
+global.author = 'YORHA';
+global.wm = 'YORHA';
+global.titulowm = '「YORHA」';
+global.titulowm2 = `「ZENIN」`
+global.igfg = '「YORHA-ZENIN」';
 global.wait = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -42,9 +42,9 @@ global.mes = d.toLocaleDateString('ar', {month: 'long'});
 global.año = d.toLocaleDateString('ar', {year: 'numeric'});
 global.tiempo = d.toLocaleString('ar-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n☾︎ YUMEKO-BOT ☽︎`;
-global.gt = '☾︎ YUMEKO-BOT ☽︎';
-global.mysticbot = '☾︎ YUMEKO ☽︎';
+global.wm2 = `${dia} ${fecha}\n「YORHA-BOT」`;
+global.gt = '「YORHA-BOT」';
+global.mysticbot = '「YORHA」';
 global.md = 'https://chat.whatsapp.com/H93YpO0LkJNHoTmtIhcL1z';
 global.mysticbot = 'atom.bio/harley_light';
 global.waitt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
