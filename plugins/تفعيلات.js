@@ -384,6 +384,15 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       bot.antispam = isEnable;
       break;
+    case 'الطرد':
+    case 'restringir':
+      isAll = true;
+      if (!isOwner) {
+        global.dfail('owner', m, conn);
+        throw false;
+      }
+      bot.restrict = isEnable;
+      break;
     case 'مضادالشتائم':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
