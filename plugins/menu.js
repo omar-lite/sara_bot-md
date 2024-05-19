@@ -9,7 +9,7 @@ let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isP
 try {
 let vn = './Menu.png'
 let pp = imagen4
-let img = await(await fetch('https://telegra.ph/.')).buffer()
+let img = await(await fetch('https://telegra.ph/file/fd4f255c79c743b87272b.jpg')).buffer()
 let d = new Date(new Date + 3600000)
 let locale = 'ar'
 let week = d.toLocaleDateString(locale, { weekday: 'long' })
@@ -24,11 +24,11 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `مرحبا بك/ي معاك/ي 𝑺𝐴𝑅𝐴-𝐵𝛩𝑇
+let str = `「WELCOME TO BOT-YORHA💙🗝️」
 ⎔ ⋅ ───━ •﹝🪭﹞• ━─── ⋅ ⎔
 قسم الجروبات 🪭
 ⎔ ⋅ ───━ •﹝🪭﹞• ━─── ⋅ ⎔
-𝑺𝐴𝑅𝐴-𝐵𝛩𝑇🪭
+  「〢𝒀𝑶𝑹𝑯𝑨-𝑩𝑶𝑻〢」
 ⎔ ⋅ ───━ •﹝🪭﹞• ━─── ⋅ ⎔
 🪭|ضيف
 🪭|الاشباح
