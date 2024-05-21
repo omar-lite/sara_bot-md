@@ -21,12 +21,12 @@ handler.before = async function(m) {
       const comienzop = `*اختار قبل الاعب الاخر*  
 حجر
 ورقه
-مقص\nالنقاط +${room.poin}𝚇𝙿\nلفل ${room.poin_lose}𝚇𝙿\n*𝕸𝖎𝖐𝖚 𝕭𝖔𝖙*
+مقص\nالنقاط +${room.poin}𝚇𝙿\nلفل ${room.poin_lose}𝚇𝙿\n*YORHA-BOT*
 `;
       const comienzop2 = `*اختار قبل الاعب الاخر*
 حجر
 ورقه
-مقص\nالنقاط +${room.poin}𝚇𝙿\nلفل ${room.poin_lose}𝚇𝙿\n𝙕𝙊𝙍𝙊-𝘽𝙊𝙏`;
+مقص\nالنقاط +${room.poin}𝚇𝙿\nلفل ${room.poin_lose 𝚇𝙿\nYORHA-BOT`;
 
       if (!room.pilih) this.sendMessage(room.p, {text: comienzop}, {quoted: m});
       if (!room.pilih2) this.sendMessage(room.p2, {text: comienzop2}, {quoted: m});
@@ -55,7 +55,7 @@ handler.before = async function(m) {
       room.pilih = reg.exec(m.text.toLowerCase())[0];
       room.text = m.text;
       m.reply(`*[ ✔ ] تم ${m.text}  ${room.pilih2 ? `انتظر الاعب الاخر*` : 'في الجروب*'}`);
-      if (!room.pilih2) this.reply(room.p2, '*[❗] 𝙴𝙻 𝙾𝙿𝙾𝙽𝙴𝙽𝚃𝙴 𝙰𝙷 𝙴𝙻𝙴𝙶𝙸𝙳𝙾, 𝙴𝚂 𝚃𝚄 𝚃𝚄𝚁𝙽𝙾 𝙳𝙴 𝙴𝙻𝙴𝙶𝙸𝚁!!*', 0);
+      if (!room.pilih2) this.reply(room.p2, '*[❗] لقد قمت بدعوه صديق بالفعل لا يمكنك دعوه شخص اخر انتظر حتى ينتهي الوقت*', 0);
     }
     if (jwb2 && reg.test(m.text) && !room.pilih2 && !m.isGroup) {
       room.pilih2 = reg.exec(m.text.toLowerCase())[0];
@@ -93,4 +93,4 @@ handler.exp = 0;
 export default handler;
 function random(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
-          }
+                                }
