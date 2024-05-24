@@ -7,7 +7,7 @@ let handler = async (m, { conn, text, command }) => {
       return;
     }
     venomLink = text;
-    m.reply(`تم تغيير الرابط إلى: ${venomLink}`);
+    m.reply(`🗝️تم تغيير الرابط إلى: ${venomLink}`);
     return;
   }
 
@@ -19,7 +19,7 @@ let handler = async (m, { conn, text, command }) => {
   }
 
   conn.sendMessage(mentioned, { text: venomLink }, { quoted: m });
-  m.reply(`✨ تم ارسال الرابط خليه يبص خاص ✨`);
+  m.reply(`تعال خاص ياحب عشان تدخل الاساسي🔮💙`);
 };
 handler.owner = true;
 handler.command = ['ابعت', 'تغير'];
