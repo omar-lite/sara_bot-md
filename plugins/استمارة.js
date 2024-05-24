@@ -22,7 +22,7 @@ let handler = async (m, { conn }) => {
 *⌞ ...... ⌝*`;
 
     // URLs for the image and audio file
-    let imageUrl = '';
+    let imageUrl = 'https://telegra.ph/file/1ee2af6fdf7c01918916b.jpg';
     let audioUrl = 'https://cdn.sazumi.moe/file/6gbwdh.mp3';
 
     console.log('Preparing to send message...');
