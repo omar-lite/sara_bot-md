@@ -7,7 +7,7 @@ let handler = async (m, { conn, text, command }) => {
       return;
     }
     venomLink = text;
-    m.reply(`🗝️تم تغيير الرابط إلى: ${venomLink}`);
+    m.reply(`تم تغيير الرابط إلى🗝️: ${venomLink}`);
     return;
   }
 
