@@ -26,13 +26,14 @@ let handler = async (m, { conn }) => {
 *⌞ `......` ⌝*`;
 
     // URLs for the image and audio file
-    let imageUrl = 'https://telegra.ph/file/1ee2af6fdf7c01918916b.jpg';
+    let imageUrl = 'https://example.com/image.jpg'; // تأكد من أن هذا الرابط صحيح
     let audioUrl = 'https://cdn.sazumi.moe/file/6gbwdh.mp3';
 
     try {
         // Check if image URL is accessible
         let imageResponse = await fetch(imageUrl, { method: 'HEAD' });
         if (imageResponse.ok) {
+            console.log('Image URL is accessible');
             // Send the image with the message
             await conn.sendFile(m.chat, imageUrl, 'image.jpg', message, m);
         } else {
@@ -42,6 +43,7 @@ let handler = async (m, { conn }) => {
         // Check if audio URL is accessible
         let audioResponse = await fetch(audioUrl, { method: 'HEAD' });
         if (audioResponse.ok) {
+            console.log('Audio URL is accessible');
             // Send the audio message
             await conn.sendMessage(m.chat, { audio: { url: audioUrl }, mimetype: 'audio/mpeg', ptt: true }, { quoted: m });
         } else {
@@ -56,3 +58,4 @@ handler.customPrefix = /^(استمارة)$/i;
 handler.command = new RegExp;
 
 export default handler;
+        
