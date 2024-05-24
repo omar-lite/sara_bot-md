@@ -22,5 +22,5 @@ let handler = async (m, { conn, text, command }) => {
   m.reply(`تعال خاص ياحب عشان تدخل الاساسي🔮💙`);
 };
 handler.owner = true;
-handler.command = ['ابعت', 'تغير'];
+handler.command = ['ارسل', 'تغير'];
 export default handler;
