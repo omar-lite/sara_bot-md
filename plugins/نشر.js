@@ -2,22 +2,26 @@ import { randomBytes } from 'crypto';
 
 let handler = async (m, { conn, text }) => {
   try {
-    // الحصول على جميع مجموعات الدردشة
     console.log('جلب مجموعات الدردشة...');
-    let chats = Object.entries(conn.chats).filter(([_, chat]) => chat.isGroup).map(v => v[0]);
-    console.log(`عدد المجموعات: ${chats.length}`);
+    let chats = Object.entries(conn.chats);
+    console.log(`عدد العناصر في conn.chats: ${chats.length}`);
 
-    // إذا لم يكن هناك نص، استخدم النص من الرسالة المقتبسة أو الرسالة الحالية
+    // طباعة معلومات المجموعات لمعرفة محتوى conn.chats
+    chats.forEach(([id, chat]) => {
+      console.log(`ID: ${id}, isGroup: ${chat.isGroup}, isChats: ${chat.isChats}`);
+    });
+
+    let groupChats = chats.filter(([_, chat]) => chat.isGroup).map(v => v[0]);
+    console.log(`عدد المجموعات: ${groupChats.length}`);
+
     let cc = text ? m : m.quoted ? await m.getQuotedObj() : m;
     let teks = text ? text : cc.text;
 
     console.log('النص للإرسال:', teks);
 
-    // إرسال رسالة تجهيزية
-    await conn.reply(m.chat, `جاري التجهيز *عدد الجروبات:* ${chats.length}`, m);
+    await conn.reply(m.chat, `جاري التجهيز *عدد الجروبات:* ${groupChats.length}`, m);
 
-    // إرسال الرسالة إلى جميع المجموعات
-    for (let id of chats) {
+    for (let id of groupChats) {
       try {
         console.log(`إرسال إلى المجموعة ${id}...`);
         await conn.copyNForward(id, conn.cMod(m.chat, cc, teks), true);
@@ -27,7 +31,6 @@ let handler = async (m, { conn, text }) => {
       }
     }
 
-    // إرسال رسالة تأكيد بعد الانتهاء
     await conn.reply(m.chat, 'تم التحويل', m);
   } catch (e) {
     console.error('حدث خطأ:', e);
