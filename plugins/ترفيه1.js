@@ -58,12 +58,12 @@ let handler = m => m
   
  } 
   
-  if (/وينك^$/i.test(m.text) ) { //sem prefixo 
+  if (/^وينك$/i.test(m.text) ) { //sem prefixo 
      conn.reply(m.chat, ` *انا هنا معك* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
   
  } 
      
- if (/بحبك^$/i.test(m.text) ) { //sem prefixo 
+ if (/^بحبك$/i.test(m.text) ) { //sem prefixo 
      conn.reply(m.chat, ` *واانا اكثر احمم🌸* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
   
  } 
