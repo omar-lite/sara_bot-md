@@ -7,11 +7,6 @@ let handler = m => m
   
  } 
   
- if (/^يب|$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, ` *قول نعم🙂‍↕*`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
-  
- } 
-  
  if (/^يورها$/i.test(m.text) ) { //sem prefixo 
      conn.reply(m.chat, ` *يورها بتحبك ياض🫶🏻♥️* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
   
