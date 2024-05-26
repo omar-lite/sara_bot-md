@@ -23,7 +23,7 @@ let handler = m => m
  } 
   
  if (/^اسكتي$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, ` *🥺حاضر* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, ` *حاضر🥺* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
   
  } 
   
@@ -39,7 +39,7 @@ let handler = m => m
  } 
   
  if (/^ياحب$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `  *يورها في خدمتك* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, `  *يورها في خدمتك🧸* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
   
  } 
   
@@ -49,7 +49,7 @@ let handler = m => m
  }  
   
  if (/^من عمك$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, ` *عمتي هي يورويتشي* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, ` *عمتي هي يورويتشي♡🧸* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
   
  } 
      
@@ -59,7 +59,7 @@ let handler = m => m
  } 
   
   if (/^وينك$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, ` *انا هنا معك* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, ` *انا هنا معك🌙🌸* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
   
  } 
      
