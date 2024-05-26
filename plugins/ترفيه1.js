@@ -13,7 +13,7 @@ let handler = m => m
  } 
   
  if (/^ماهو اسمك$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, ` *يورها يا حب🫦* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, ` *يورها يا حب♡🧸* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
   
  } 
   
@@ -44,7 +44,7 @@ let handler = m => m
  } 
   
  if (/^كم عمرك/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `  *اسال مامي يورويتشي🫦* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, `  *اسال مامي يورويتشي♡🌸* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
   
  }  
   
