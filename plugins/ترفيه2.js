@@ -18,7 +18,7 @@ let handler = m => m
  } 
   
  if (/^منور|منورة$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, ` *بنوري انا🫦🩵* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, ` *بنوري انا🦋💙* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
   
  } 
   
@@ -67,7 +67,7 @@ let handler = m => m
  }  
   
  if (/^احا$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, ` *احتين على احتك ععع🫦* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, ` *احتين على احتك ععع🧸♡* `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
   
  } 
      
