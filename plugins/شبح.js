@@ -43,7 +43,7 @@ let handler = async (m, { conn, text, participants, isOwner, isAdmin }) => {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: 'your_newsletter_jid_here@newsletter', // ضع هنا معرف نشرتك الإخبارية
-                        newsletterName: 'YUMEKO-BOT', // ضع هنا اسم نشرتك الإخبارية
+                        newsletterName: 'YORHA-BOT', // ضع هنا اسم نشرتك الإخبارية
                         serverMessageId: -1
                     }
                 }
@@ -60,7 +60,7 @@ let handler = async (m, { conn, text, participants, isOwner, isAdmin }) => {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: 'your_newsletter_jid_here@newsletter', // ضع هنا معرف نشرتك الإخبارية
-                        newsletterName: 'YUMEKO-BOT', // ضع هنا اسم نشرتك الإخبارية
+                        newsletterName: 'YORHA-BOT', // ضع هنا اسم نشرتك الإخبارية
                         serverMessageId: -1
                     }
                 }
