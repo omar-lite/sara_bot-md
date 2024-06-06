@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
-    if (!text) throw `*[🗝️] يرجى كتابة نوع الطلب وإرساله*\n\n*مثال:*\n*${usedPrefix + command} اريد ستيكرز يوميكو${usedPrefix}*`
+    if (!text) throw `*[🗝️] يرجى كتابة نوع الطلب وإرساله*\n\n*مثال:*\n*${usedPrefix + command} اريد ستيكرز يوميكو*`
     if (text.length < 4) throw `*[❗تحذير❗] يرجى توضيح طلب أكثر*`
     if (text.length > 1000) throw `*[❗تحذير❗] طلب لا يزيد عن ألف حرف*`
     let teks = `*❒═════[📥]═════❒*\n*┬*\n*├❧ الرقم:* wa.me/${m.sender.split`@`[0]}\n*┴*\n*┬*\n*├❧ نوع الطلب:* ${text}\n*┴*`
