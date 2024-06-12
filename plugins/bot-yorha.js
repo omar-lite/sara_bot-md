@@ -13,7 +13,7 @@ handler.all = async function (m) {
     }
 
     if (/^هاها|هيهي|هههه$/i.test(m.text)) {
-        audioUrl = 'https://cdn.sazumi.moe/file/0tlt21.mp3';
+        audioUrl = 'https://f.uguu.se/PQLTTUHr.mp3';
     }
 
     if (/^بانكاي$/i.test(m.text)) {
