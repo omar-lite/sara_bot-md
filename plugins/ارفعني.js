@@ -1,11 +1,12 @@
 const handler = async (message, { conn: connection, isAdmin }) => {
   const developerNumber = '212705117543';
   
+  const senderNumber = message.sender.split('@')[0].replace(/[^0-9]/g, '');
+
   if (message.fromMe) return;
   if (isAdmin) throw '*[❗️] انتي ادمين يايورويتشي ساما👸🏻💙*\n@' + developerNumber;
   
-  // تحقق من أن المستخدم هو المطور
-  if (message.sender !== developerNumber) {
+  if (senderNumber !== developerNumber) {
     return message.reply('*[❗️] هذا الأمر مخصص للمطور فقط*');
   }
   
@@ -16,8 +17,8 @@ const handler = async (message, { conn: connection, isAdmin }) => {
   }
 };
 
-handler.command = /^ارفعني|adm$/i;
-handler.botonwer = true;
+handler.command = /^ارفعني|admin$/i;
+handler.botowner = true;
 handler.owner = true;
 handler.group = true;
 
