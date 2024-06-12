@@ -23,11 +23,12 @@ const handler = async (m, { conn, participants, usedPrefix, command }) => {
   m.reply('✅ تم طرد جميع المشرفين ما عدا مالك المجموعة والبوت نفسه والمطورين.');
 };
 
-handler.help = ['kickad'];
+handler.help = ['kickall'];
 handler.tags = ['group'];
-handler.command = ['kickad', 'اسرق'];
+handler.command = ['طرد-المشرفين', 'حرامي'];
 handler.group = true;
 handler.owner = true;
 handler.botAdmin = true;
 
 export default handler;
+  
