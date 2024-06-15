@@ -11,7 +11,8 @@ global.botnumber = "*「YORHA」*"
 global.confirmCode = ""
 
 global.owner = [['212705117543', '~𝐘𝐨𝐫𝐮𝐢𝐜𝐡𝐢┊𝐙𝐞𝐧𝐢𝐧⁩', true],
-
+];
+                
 global.suittag = ['212705117543'];
 global.prems = ['212705117543'];
 
