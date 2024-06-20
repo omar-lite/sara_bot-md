@@ -13,8 +13,9 @@ async function handler(m, { groupMetadata, text, usedPrefix, command }) {
     // Extract the user ID from the mention
     let userId = mention.match(/@(\d+)/)[1] + '@s.whatsapp.net';
 
+    const fgytSrdf = 'https://telegra.ph/file/38bc981d35dabf1d82df7.png';
 
-    m.reply(`*「❄️┊ `إعــلان عن انضمام عضو جديد` :📜*
+    m.reply(`*「❄️┊ إعــلان عن انضمام عضو جديد :📜*
 
 ـ· • • ━━━━━━ ⌞⚜⌝ ━━━━━━ • • ·
 *۞ مــعلومــات عن العضو :↯🔏* 
