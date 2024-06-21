@@ -4,6 +4,10 @@ handler.all = async function (m) {
     let chat = global.db.data.chats[m.chat];
     let audioUrl = null;
 
+   if (/^.اوامر$/i.test(m.text)) {
+        audioUrl = 'https://cdn.sazumi.moe/file/lw79sa';
+    }
+    
     if (/^ياري ياري$/i.test(m.text)) {
         audioUrl = 'https://cdn.sazumi.moe/file/4ynbh8';
     }
