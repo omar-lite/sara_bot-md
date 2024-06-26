@@ -20,7 +20,7 @@ global.packname = '𝐻𝐴𝑅𝐿𝐸𝑌 𝐿𝐼𝐺𝐻𝑇⁩';
 global.author = '👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑';
 global.wm = '👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑';
 global.titulowm = '☾ 👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑 ☽';
-global.titulowm2 = ☾ 👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑 ☽
+global.titulowm2 = '☾ 👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑 ☽';
 global.igfg = '☾ 👑𝑺𝐴𝑅𝐴-𝐵𝛩𝑇👑 ☽';
 global.wait = '[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت...\n\n*atom.bio/harley_light*';
 
