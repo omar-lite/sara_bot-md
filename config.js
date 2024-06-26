@@ -10,8 +10,9 @@ import moment from 'moment-timezone';
 global.botnumber = "*「YORHA」*"
 global.confirmCode = ""
 
-global.owner = [['212705117543', '~𝐘𝐨𝐫𝐮𝐢𝐜𝐡𝐢┊𝐙𝐞𝐧𝐢𝐧⁩', true]];
-                
+global.owner = [['212705117543', '𝐘𝐨𝐫𝐮𝐢𝐜𝐡𝐢┊𝐙𝐞𝐧𝐢𝐧⁩', true]];
+ ];
+
 global.suittag = ['212705117543'];
 global.prems = ['212705117543'];
 
@@ -21,7 +22,7 @@ global.wm = 'YORHA';
 global.titulowm = '「YORHA」';
 global.titulowm2 = `「ZENIN」`
 global.igfg = '「YORHA-ZENIN」';
-global.wait = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
+global.wait = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*https://linktr.ee/Reven__zenin*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -46,9 +47,9 @@ global.gt = '「YORHA-BOT」';
 global.mysticbot = '「YORHA」';
 global.md = 'https://chat.whatsapp.com/H93YpO0LkJNHoTmtIhcL1z';
 global.mysticbot = 'atom.bio/harley_light';
-global.waitt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
-global.waittt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
-global.waitttt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*atom.bio/harley_light*';
+global.waitt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*https://linktr.ee/Reven__zenin*';
+global.waittt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*https://linktr.ee/Reven__zenin*';
+global.waitttt = '*[ ⏳ ] انتظر جاي التحميل تابع صاحب البوت*...\n\n*https://linktr.ee/Reven__zenin*';
 global.nomorown = '212705117543';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
